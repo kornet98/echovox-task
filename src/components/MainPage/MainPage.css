@@ -1,0 +1,11 @@
+.nav-btn{
+	display: inline-block;
+	margin-top: 60px;
+	font-size: 20px;
+	color: #004FEC;
+	border-bottom: 2px solid transparent;
+}
+
+.nav-btn:hover{
+	border-bottom: 2px solid #004FEC;
+}

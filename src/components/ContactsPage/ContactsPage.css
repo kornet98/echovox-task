@@ -1,0 +1,42 @@
+.contacts-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts__nuber{
+	display: inline-block;
+	color: #004FEC;
+	font-size: 60px;
+	margin-bottom: 50px;
+}
+
+.info__author-name{
+	margin-left: 25px;
+	font-weight: normal;
+	position: relative;
+}
+
+.info__author-name::before{
+	position: absolute;
+	content: '';
+	width: 2px;
+	height: 100%;
+	left: -16px;
+	top: 0;
+	background: #004FEC;
+}
+
+.info__mail{
+	margin: 25px 0 52px;
+}
+
+.info__skills{
+	margin-bottom: 0;
+}
+.photo{
+	width: 400px;
+}
+
+.photo img{
+	width: 100%;
+}

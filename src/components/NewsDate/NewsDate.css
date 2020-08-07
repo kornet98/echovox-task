@@ -1,0 +1,25 @@
+.news-item__date{
+	display: flex;
+	align-items: flex-end;
+}
+
+.news-item__day{
+	font-size: 30px;
+	line-height: 31px;
+	margin: 0;
+}
+
+.news-item__month{
+	margin-left: 20px;
+	position: relative;
+	font-size: 20px;
+	line-height: 24px;
+	color: rgba(51, 61, 81, 0.5);
+}
+
+.news-item__month::before{
+	position: absolute;
+	content: '/';
+	top: 0;
+	left: -12px;
+}

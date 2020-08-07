@@ -1,0 +1,24 @@
+.footer{
+	padding: 45px 0;
+	margin-top: 90px;
+}
+
+.footer-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+ }
+
+ .footer-wrapper p{
+	font-size: 12px;
+	margin: 0;
+ }
+
+ .footer-wrapper span{
+	font-size: 15px;
+ }
+ 
+ .author{
+	font-weight: bold;
+	margin: 0;
+ }

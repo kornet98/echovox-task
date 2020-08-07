@@ -1,0 +1,33 @@
+.news-wrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+.about{
+	width: 350px;
+}
+
+.about h1{
+	font-weight: normal;
+	margin-bottom: 30px;
+}
+
+.about__source{
+	display: inline-block;
+	margin-bottom: 30px;
+	font-size: 25px;
+	color: rgba(51, 61, 81, 0.5);
+}
+
+.content{
+	width: 730px;
+}
+
+.content__img{
+	width: 100%;
+}
+
+.content__text{
+	font-size: 25px;
+	margin-top: 60px;
+}

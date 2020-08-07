@@ -1,0 +1,28 @@
+.header{
+	padding: 49px 0;
+	margin-bottom: 90px;
+}
+
+.head-wrapper{
+	display: flex;
+	justify-content: space-between;
+ }
+
+ .logo a{
+	color: #333D51; 
+ }
+ 
+.navigation{
+	display: flex;
+	justify-content: space-between;
+	width: 384px;
+ }
+ 
+.navigation a{
+	color: #333D51;
+	font-size: 28px;
+}
+
+ .active{
+	color: #004FEC !important
+ }

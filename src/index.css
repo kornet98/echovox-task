@@ -1,13 +1,82 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNovaRegular/ProximaNovaRegular.eot");
+  src: url("./fonts/ProximaNovaRegular/ProximaNovaRegular.eot?#iefix")format("embedded-opentype"),
+  url("./fonts/ProximaNovaRegular/ProximaNovaRegular.woff") format("woff"),
+  url("./fonts/ProximaNovaRegular/ProximaNovaRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("./fonts/ProximaNovaBold/ProximaNovaBold.eot");
+  src: url("./fonts/ProximaNovaBold/ProximaNovaBold.eot?#iefix")format("embedded-opentype"),
+  url("./fonts/ProximaNovaBold/ProximaNovaBold.woff") format("woff"),
+  url("./fonts/ProximaNovaBold/ProximaNovaBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family:'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: 'Proxima Nova', sans-serif;
+  color: #333D51;
+	padding: 0;
+	letter-spacing: 0em;
+	margin: 0;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+div, p, form, input, a, span, button {
+	box-sizing: border-box;
+}
+
+p {
+	margin: 0;
+    line-height: 150%;
+    margin-bottom: 1em;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+	outline: none;
+}
+
+input, input:hover, input:focus, input:active,
+button, button:hover, button:focus, button:active
+
+ {
+	outline: none;
+}
+
+h1{
+  font-family: 'Proxima Nova', sans-serif;
+  font-size: 60px; 
+  margin: 0;
+  font-weight: normal;
+}
+
+h2{
+  font-size: 25px;
+  line-height: 30px;
+  margin: 0;
+}
+
